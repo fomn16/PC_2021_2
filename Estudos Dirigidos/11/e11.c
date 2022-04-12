@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-#define MAXSIZE 100  /* maximum matrix size */
+#define MAXSIZE 10000  /* maximum matrix size */
 
 pthread_barrier_t barrier;  
 int size;
